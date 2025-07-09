@@ -136,24 +136,6 @@
                 </li>
               </ul>            
           {/each}
-        <!-- <h4 class="h4 mb-3 text-xs font-semibold text-primary-900 uppercase dark:text-white">Sustentability</h4>
-        <ul class="text-secondary-600 dark:text-secondary-400 font-medium">
-        <li class="text-xs mb-1">
-            <a href="/" class=" hover:underline">Enviroiment</a>
-        </li>
-        <li class="text-xs mb-1">
-            <a href="/" class="hover:underline">Social</a>
-        </li>
-        <li class="text-xs mb-1">
-            <a href="/" class="hover:underline">Impact Reports</a>
-        </li>
-        <li class="text-xs mb-1">
-            <a href="/" class="hover:underline">Policies</a>
-        </li>
-        <li class="text-xs mb-1">
-          <a href="/" class="hover:underline">Sustainable Fashion Terms</a>
-      </li>
-        </ul> -->
         </div>
       </div>
 
