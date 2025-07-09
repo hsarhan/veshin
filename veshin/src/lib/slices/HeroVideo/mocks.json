@@ -1,0 +1,19 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"video_title": {
+				"__TYPE__": "FieldContent",
+				"value": "block",
+				"type": "Text"
+			},
+			"video_embed": {
+				"__TYPE__": "FieldContent",
+				"value": "structure",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/hamlindigo';
+@import './veshin';
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+@plugin "@tailwindcss/typography";
+@import '@fontsource-variable/lora';
+
+@custom-variant dark (&:where([data-mode=dark], [data-mode=dark] *));
+
+@theme {
+	--font-display: 'Lora Variable', serif;
+}
+
+[data-theme='veshin'] .h1,
+.h2 {
+	font-family: var(--font-display);
+	font-weight: 400;
+}

@@ -1,0 +1,119 @@
+{
+	"format": "custom",
+	"id": "footernavigation",
+	"label": "Footer Navigation",
+	"repeatable": false,
+	"status": true,
+	"json": {
+		"Main": {
+			"footer_nav_1": {
+				"type": "Group",
+				"config": {
+					"label": "Footer Nav 1",
+					"repeat": true,
+					"fields": {
+						"title": {
+							"type": "Text",
+							"config": {
+								"label": "Title",
+								"placeholder": ""
+							}
+						},
+						"link": {
+							"type": "Link",
+							"config": {
+								"label": "Link",
+								"placeholder": "",
+								"select": null,
+								"allowTargetBlank": true,
+								"allowText": true,
+								"repeat": false
+							}
+						}
+					}
+				}
+			},
+			"footer_nav_2": {
+				"type": "Group",
+				"config": {
+					"label": "Footer Nav 2",
+					"repeat": true,
+					"fields": {
+						"title": {
+							"type": "Text",
+							"config": {
+								"label": "Title",
+								"placeholder": ""
+							}
+						},
+						"link": {
+							"type": "Link",
+							"config": {
+								"label": "Link",
+								"placeholder": "",
+								"select": null,
+								"allowTargetBlank": true,
+								"allowText": true,
+								"repeat": false
+							}
+						}
+					}
+				}
+			},
+			"footer_nav_3": {
+				"type": "Group",
+				"config": {
+					"label": "Footer Nav 3",
+					"repeat": true,
+					"fields": {
+						"title": {
+							"type": "Text",
+							"config": {
+								"label": "Title",
+								"placeholder": ""
+							}
+						},
+						"link": {
+							"type": "Link",
+							"config": {
+								"label": "Link",
+								"placeholder": "",
+								"select": null,
+								"allowTargetBlank": true,
+								"allowText": true,
+								"repeat": false
+							}
+						}
+					}
+				}
+			},
+			"footer_nav_4": {
+				"type": "Group",
+				"config": {
+					"label": "Footer Nav 4",
+					"repeat": true,
+					"fields": {
+						"title": {
+							"type": "Text",
+							"config": {
+								"label": "Title",
+								"placeholder": ""
+							}
+						},
+						"link": {
+							"type": "Link",
+							"config": {
+								"label": "Link",
+								"placeholder": "",
+								"select": null,
+								"allowTargetBlank": true,
+								"allowText": true,
+								"repeat": false
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{
+  "id": "press_loop",
+  "type": "SharedSlice",
+  "name": "PressLoop",
+  "description": "PressLoop",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "press_title": {
+          "type": "Text",
+          "config": {
+            "label": "Press Title",
+            "placeholder": ""
+          }
+        },
+        "press_item": {
+          "type": "Group",
+          "config": {
+            "label": "Press Item",
+            "repeat": true,
+            "fields": {
+              "press_image": {
+                "type": "Image",
+                "config": {
+                  "label": "Press Image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "press_title": {
+                "type": "Text",
+                "config": {
+                  "label": "Press Title",
+                  "placeholder": ""
+                }
+              },
+              "press_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Press Link",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+	"format": "custom",
+	"id": "main_navigation",
+	"label": "Main Navigation",
+	"repeatable": false,
+	"status": true,
+	"json": {
+		"Main": {
+			"nav_name": {
+				"type": "Text",
+				"config": {
+					"label": "Nav Name",
+					"placeholder": ""
+				}
+			},
+			"nav_logo": {
+				"type": "Image",
+				"config": {
+					"label": "Nav Logo",
+					"constraint": {},
+					"thumbnails": []
+				}
+			},
+			"nav_logo_dark": {
+				"type": "Image",
+				"config": {
+					"label": "Nav Logo Dark",
+					"constraint": {},
+					"thumbnails": []
+				}
+			},
+			"nav_item": {
+				"type": "Group",
+				"config": {
+					"label": "Nav Item",
+					"repeat": true,
+					"fields": {
+						"link_url": {
+							"type": "Link",
+							"config": {
+								"label": "Link URL",
+								"placeholder": "",
+								"select": null,
+								"allowTargetBlank": true,
+								"allowText": true,
+								"repeat": false
+							}
+						},
+						"link_label": {
+							"type": "Text",
+							"config": {
+								"label": "Link Label",
+								"placeholder": ""
+							}
+						}
+					}
+				}
+			},
+			"social_instagram": {
+				"type": "Link",
+				"config": {
+					"label": "Social Instagram",
+					"placeholder": "",
+					"select": null,
+					"allowTargetBlank": true,
+					"allowText": true,
+					"repeat": false
+				}
+			},
+			"social_linkedin": {
+				"type": "Link",
+				"config": {
+					"label": "Social Linkedin",
+					"placeholder": "",
+					"select": null,
+					"allowTargetBlank": true,
+					"allowText": true,
+					"repeat": false
+				}
+			},
+			"social_vimeo": {
+				"type": "Link",
+				"config": {
+					"label": "Social Vimeo",
+					"placeholder": "",
+					"select": null,
+					"allowTargetBlank": true,
+					"allowText": true,
+					"repeat": false
+				}
+			},
+			"social_youtube": {
+				"type": "Link",
+				"config": {
+					"label": "Social Youtube",
+					"placeholder": "",
+					"select": null,
+					"allowTargetBlank": true,
+					"allowText": true,
+					"repeat": false
+				}
+			},
+			"social_twitter": {
+				"type": "Link",
+				"config": {
+					"label": "Social Twitter",
+					"placeholder": "",
+					"select": null,
+					"allowTargetBlank": true,
+					"allowText": true,
+					"repeat": false
+				}
+			},
+			"social_facebook": {
+				"type": "Link",
+				"config": {
+					"label": "Social Facebook",
+					"placeholder": "",
+					"select": null,
+					"allowTargetBlank": true,
+					"allowText": true,
+					"repeat": false
+				}
+			},
+			"social_tiktok": {
+				"type": "Link",
+				"config": {
+					"label": "Social Tiktok",
+					"placeholder": "",
+					"select": null,
+					"allowTargetBlank": true,
+					"allowText": true,
+					"repeat": false
+				}
+			},
+			"newsletter_form": {
+				"type": "Group",
+				"config": {
+					"label": "Newsletter Form",
+					"repeat": true,
+					"fields": {
+						"name": {
+							"type": "Text",
+							"config": {
+								"label": "name",
+								"placeholder": ""
+							}
+						},
+						"last_name": {
+							"type": "Text",
+							"config": {
+								"label": "last name",
+								"placeholder": ""
+							}
+						},
+						"email": {
+							"type": "Text",
+							"config": {
+								"label": "email",
+								"placeholder": ""
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

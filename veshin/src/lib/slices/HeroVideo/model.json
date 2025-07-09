@@ -1,0 +1,33 @@
+{
+  "id": "hero_video",
+  "type": "SharedSlice",
+  "name": "HeroVideo",
+  "description": "HeroVideo",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "video_title": {
+          "type": "Text",
+          "config": {
+            "label": "Video Title",
+            "placeholder": ""
+          }
+        },
+        "video_embed": {
+          "type": "Text",
+          "config": {
+            "label": "Video Embed",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
