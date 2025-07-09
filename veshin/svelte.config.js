@@ -15,8 +15,6 @@ const config = {
 			if (path === '/not-found' && referrer === '/blog/how-we-built-our-404-page') {
 				return;
 			}
-
-			// otherwise fail the build
 			throw new Error(message);
 		}
 	}
